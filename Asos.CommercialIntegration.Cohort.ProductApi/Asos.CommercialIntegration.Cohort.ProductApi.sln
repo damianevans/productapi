@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asos.CommercialIntegration.Cohort.ProductApi", "Asos.CommercialIntegration.Cohort.ProductApi.csproj", "{48B01FB8-242F-4880-9E58-279C4B8E993C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateTestData", "..\GenerateTestData\GenerateTestData.csproj", "{4998E74D-6A9B-4C97-A029-0F1C3E15B584}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48B01FB8-242F-4880-9E58-279C4B8E993C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48B01FB8-242F-4880-9E58-279C4B8E993C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48B01FB8-242F-4880-9E58-279C4B8E993C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48B01FB8-242F-4880-9E58-279C4B8E993C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4998E74D-6A9B-4C97-A029-0F1C3E15B584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4998E74D-6A9B-4C97-A029-0F1C3E15B584}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4998E74D-6A9B-4C97-A029-0F1C3E15B584}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4998E74D-6A9B-4C97-A029-0F1C3E15B584}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {961E096D-3C8E-4A48-BB14-733F07605F45}
+	EndGlobalSection
+EndGlobal
