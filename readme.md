@@ -10,4 +10,4 @@ Data is loaded from a JSON file (stored as an embedded resource in the project).
 /products/allIds - return an array of all valid product Ids
 
 ## Note
-Every 30th request to the  `/products/<product_id>` endpoint will generate a HTTP 500 error. This is intentional and consumers should make allowances for this in their code (e.g. retry pattern)
+Every 300th request to the  `/products/<product_id>` endpoint will generate a HTTP 500 error. This is intentional and consumers should make allowances for this in their code (e.g. retry pattern)
