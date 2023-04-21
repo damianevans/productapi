@@ -21,6 +21,6 @@ jobs:
       with:
         dotnet-version: 6.0.x
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore "./Asos.CommercialIntegration.Cohort.ProductApi/Asos.CommercialIntegration.Cohort.ProductApi.csproj"
     - name: Build
-      run: dotnet build ./Asos.CommercialIntegration.Cohort.ProductApi/Asos.CommercialIntegration.Cohort.ProductApi.sln --no-restore
+      run: dotnet build ./Asos.CommercialIntegration.Cohort.ProductApi/Asos.CommercialIntegration.Cohort.ProductApi.csproj --no-restore
