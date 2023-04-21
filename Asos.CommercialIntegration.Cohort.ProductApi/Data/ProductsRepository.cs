@@ -8,12 +8,15 @@ namespace Asos.CommercialIntegration.Cohort.ProductApi.Data;
 class ProductsRepository : IProductsRepository
 {
     private readonly IMemoryCache _memoryCache;
+    private readonly IConfiguration _config;
     private const string CACHE_KEY = "allProducts";
     private const string REQUESTCOUNT_KEY = "requestCount";
-    private const int ERROR_THRESHOLD = 29;
-    public ProductsRepository(IMemoryCache cache)
+    private int ERROR_THRESHOLD = 300;
+    public ProductsRepository(IMemoryCache cache, IConfiguration config)
     {
+        _config = config;
         _memoryCache = cache;
+        ERROR_THRESHOLD = _config.GetValue<int>("ErrorThreshold");
     }
 
     public List<Product> AllProducts()
