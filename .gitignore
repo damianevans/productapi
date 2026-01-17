@@ -1,0 +1,77 @@
+# .NET Build / Publish output
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+*.csproj.user
+*.user
+*.suo
+*.userprefs
+
+# .NET Core / SDK
+*.dll
+*.pdb
+*.exe
+*.cache
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# NuGet
+packages/
+*.nuget.props
+*.nuget.targets
+.nuget/
+global.json   # ← optional: ignore if you don't want to commit SDK version pinning
+
+# ASP.NET Core
+appsettings.*.json          # ← sensitive per-environment settings (keep appsettings.json if needed)
+wwwroot/                   # ← only if you don't version static files (most teams do version them)
+logs/
+*.log
+
+# Test results
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+
+# Visual Studio (in case someone opens the solution)
+.vs/
+.vscode/                   # ← VS Code folder (settings, tasks, launch, extensions)
+!.vscode/settings.json     # ← optional: keep shared settings (uncomment if you want them versioned)
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Visual Studio Code - common workspace files
+*.code-workspace
+.vscode/*.code-snippets
+.history/
+.ionide/
+
+# Editor / OS files
+*~
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.swp
+*.swo
+
+# Logs and temporary files
+*.tmp
+*.cache
+*.log.*
+log/
+
+# Secrets & environment
+.env
+*.secrets.*
+appsettings.Development.json   # ← very common to exclude dev secrets
+appsettings.Local.json
+
+# Optional: ignore published output (uncomment if you publish to folder)
+# PublishProfiles/
+# obj/Release/
+# bin/Release/
+# wwwroot/dist/
