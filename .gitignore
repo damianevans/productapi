@@ -75,3 +75,4 @@ appsettings.Local.json
 # obj/Release/
 # bin/Release/
 # wwwroot/dist/
+*/obj
