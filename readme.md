@@ -32,3 +32,8 @@ curl http://localhost:8080/products
 
 (The response is quite large)
 
+### Notes
+Grok thread:
+https://grok.com/share/c2hhcmQtMi1jb3B5_3bdfdb2f-3a66-4c06-bc45-d44f3dd6c6b3
+https://stenzr.medium.com/dont-let-failures-take-down-your-system-a-deep-dive-into-the-circuit-breaker-pattern-dc12d85f8418
+https://learn.microsoft.com/en-us/dotnet/core/extensions/httpclient-factory
